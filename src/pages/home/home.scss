@@ -1,0 +1,223 @@
+page-home {
+
+.toolbar-title {
+	font-size: 28px;
+}
+
+.banner {
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+
+.conteudobanner {
+	float: left;
+	width: 100%;
+	background-color: #000;
+	padding: 0 20px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-image: url(../../assets/imgs/bg-Azul2.jpg);
+
+}
+
+.amarelo {
+	background-image: url(../../assets/imgs/bg-Amarelo.jpg);
+	padding: 6px 0;
+	text-align: center;
+	color: #000 !important;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+
+
+.conteudobanner h3 {
+	color: #fff;
+	font-size: 30px;
+	padding-top: 4px;
+}
+
+.conteudobanner p {
+	color: #fff;
+	font-size: 18px;
+
+}
+
+.Points {
+	padding: 16px;
+	float: left;
+	width: 100%;
+	margin: 6px 0;
+	margin-top: -4px;
+	border-top: 2px solid #444;
+}
+
+.Pointsdois {
+	padding: 4px 0 4px 0;
+	float: left;
+	width: 100%;
+	margin: 6px 0;
+	margin-top: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-left: 2px;
+}
+
+.borda {
+	border: 1px dotted #444;
+	float: left;
+	width: 50%;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	background-color: #3C4349;
+}
+
+.divide {
+	float: left;
+	width:20% !important;
+	margin-left: 0 !important;
+	font-size: 12px !important;
+}
+
+
+
+
+
+.Points ul {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.Points ul li {
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin-left: 2px;
+	padding: 20px 8px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 22px;
+	color: #fff;
+
+}
+
+
+.Points ul li.color {
+	float: left;
+	width: 48%;
+	background-color: #3C4349;
+	list-style: none;
+	margin-left: 2px;
+	padding: 39px 8px;
+	color: #fff;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius-bottomright: 12px;
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border: 1px dotted #444;
+	font-size: 22px;
+}
+
+.description {
+	float: left;
+	width: 100%;
+	padding: 0 18px;
+}
+
+.when {
+	float: left;
+	width: 100%;
+	padding:14px 24px;
+	border: 1px dotted #444;
+	background-color: #3C4349;
+	margin-top: -8px;
+	-webkit-border-top-left-radius: 12px;
+-webkit-border-top-right-radius: 12px;
+-moz-border-radius-topleft: 12px;
+-moz-border-radius-topright: 12px;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+}
+
+
+.description a {
+	color: #fff;
+	text-align: justify;
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 6px 0;
+}
+
+
+.yellow {
+	color: #FFA500;
+}
+
+.cinza {
+	color: #BBBBBB;
+}
+
+ion-navbar.toolbar {
+	border-bottom: 2px solid #444;
+}
+
+
+}
+
+ion-icon::before {
+	font-size: 45px !important;
+}
+
+.tabs-md .tabbar {
+	min-height: 80px !important;
+	border-top: 2px solid #444 !important;
+}
+
+page-home .toolbar-title {
+	text-align: center;
+	color: #fff;
+}
+
+page-home ion-navbar.toolbar {
+	height: 76px;
+}
+
+.tabs-ios .tabbar {
+	height: 76px;
+	border-top: 2px solid #444;
+}
+
+.toolbar-background-md {
+	background: #000 !important;
+}
+
+.tabs-md .tab-button-icon {
+	min-width: 9.4rem;
+}
+
+.tabs-ios .tab-button-icon {
+	height: 46px;
+}
+
+.header-ios .toolbar-ios:last-child .toolbar-background-ios {
+	background-color: #000;
+}
+

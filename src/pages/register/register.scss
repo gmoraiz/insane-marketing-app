@@ -1,0 +1,40 @@
+page-register {
+ol {
+	float: left;
+	width: 100%;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+ol li {
+	float: left;
+	width: 100%;
+	list-style: none;
+	padding: 4px 0;
+}
+
+ol li input {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+ol li input.entrar {
+	background-color: #000;
+	color: #fff;
+	border: 0;
+	text-align: center;
+}
+
+}
+
+
+.toolbar-title-ios {
+	color: #fff;
+}
+
+.toolbar-title {
+	color: #fff;
+	text-align: center;
+}
