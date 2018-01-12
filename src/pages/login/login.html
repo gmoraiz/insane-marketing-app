@@ -5,9 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-
 	<div class="logo"><img src="assets/imgs/img-Logo.jpg" /></div>
-
 	<ol class="formlogin">
 		<form [formGroup]="user" (ngSubmit)="login()">
 		<li>
@@ -17,10 +15,9 @@
 			<input type="password" formControlName="password" placeholder="Password">
 		</li>	
 		<li>
-			<button [disabled]="user.invalid" ion-button full>Login!</button>
+			<button [disabled]="user.invalid" class="entrar">Login!</button>
 		</li>
-		<a href="">Register now!</a>
 		</form>
+		<a (click)="goRegister()">Register now!</a>
 	</ol>
-
 </ion-content>

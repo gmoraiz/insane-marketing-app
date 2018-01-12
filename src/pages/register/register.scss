@@ -29,6 +29,28 @@ ol li input.entrar {
 
 }
 
+button.entrar {
+	background-color: #000;
+	color: #fff;
+	border: 0;
+	text-align: center;
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+}
+
+ion-datetime.datetime{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.datetime-md .datetime-placeholder, .datetime-ios .datetime-placeholder{
+	color:#757575!important;
+}
+
+ion-datetime{
+	position:relative!important;
+}
 
 .toolbar-title-ios {
 	color: #fff;

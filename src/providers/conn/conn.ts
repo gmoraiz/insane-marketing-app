@@ -23,6 +23,10 @@ export class ConnProvider {
     return this.http.post(this.url+'login-user', JSON.stringify(data)).toPromise();
   }
 
+  register(data: object): Promise<Response>{
+    return this.http.post(this.url+'user/KL123UHhuhudpjy8qvekvqivmqebyhqeyveqbveqadusad21354', JSON.stringify(data)).toPromise();
+  }
+
   company(): Promise<Response>{
     return this.http.get(this.url+'select-company/KL123UHhuhudpjy8qvekvqivmqebyhqeyveqbveqadusad21354').toPromise();
   }

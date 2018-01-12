@@ -5,6 +5,7 @@ import { ConnProvider } from '../../providers/conn/conn';
 import { DialogProvider } from '../../providers/dialog/dialog';
 import { StorageProvider } from '../../providers/storage/storage';
 import { TabsPage } from '../../pages/tabs/tabs';
+import { RegisterPage } from '../../pages/register/register';
 
 @IonicPage()
 @Component({
@@ -13,6 +14,7 @@ import { TabsPage } from '../../pages/tabs/tabs';
 })
 export class LoginPage {
   user: FormGroup;
+
   constructor(public nav: NavController, public navParams: NavParams,form : FormBuilder,
   public storage : StorageProvider, public conn: ConnProvider, public dialog: DialogProvider){
     this.user = form.group({
@@ -41,6 +43,10 @@ export class LoginPage {
         this.dialog.msg("Wasn't possible connect.");
       });
     });
+  }
+
+  goRegister():void{
+     this.nav.push(RegisterPage);
   }
 
 }
